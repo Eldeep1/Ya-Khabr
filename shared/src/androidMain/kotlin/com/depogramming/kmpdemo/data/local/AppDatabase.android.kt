@@ -19,7 +19,6 @@ actual fun getDatabaseBuilder(): RoomDatabase.Builder<AppDatabase> {
 }
 
 lateinit var appContext: Context
-    private set
 
 fun setApplicationContext(context: Context) {
     appContext = context
