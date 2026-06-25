@@ -11,9 +11,9 @@ data class ArticleResponse(
 )
 @Serializable
 data class NetworkArticle(
-    val title: String= "",
-    val description: String= "",
-    val url: String= "",
-    val urlToImage: String= "",
-    val publishedAt: String= "",
+    val title: String?,
+    val description: String?,
+    val url: String?,
+    val urlToImage: String?,
+    val publishedAt: String?,
 )
